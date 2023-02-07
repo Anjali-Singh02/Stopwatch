@@ -1,21 +1,4 @@
-/* .container {
-    margin: 10% 40% 0 35%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: green;
-    width: 30vw;
-    height: 40vh;
-    gap: 2rem;
-    padding: 20px;
-    border-radius: 20px;
-}
-.btn {
-   width: 20%; 
-   height: 20%;
-   border-radius: 10px;
-} */
+
 body {
     background: linear-gradient(to top, #ffc43d,
             #ffffff);
@@ -123,7 +106,7 @@ button:hover {
 @media (max-width : 445px) {
     .container {
         width: 50vw;
-        height: 50vh;
+        height: 45vh;
     }
     button {
         font-size: 1rem;
