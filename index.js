@@ -12,11 +12,11 @@ let start = () => {
 }
 let startStopWatch = () => {
     if (ss == 59) {
-        if (min == 59) {
+        mm++;
+        ss=0;
+        if(mm==59){
             hh++;
-        }
-        else {
-            min++;
+            mm=0;
         }
     }
     else {
@@ -32,6 +32,7 @@ let stop = () => {
     clearInterval(id);
 }
 let reset = () => {
+    clearInterval(id);
     hh = 0
     mm = 0
     ss = 0
