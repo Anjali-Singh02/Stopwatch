@@ -57,16 +57,34 @@ button:hover {
 	transform: scale(1.2);
 }
 
-#btn {
+#start-btn {
 	background-color: #4caf50;
 }
 
-#btn1 {
+#flag-btn {
+	background-color: #dae540;
+}
+
+#resetFlag-btn {
+	background-color: #dae540;
+}
+
+#stop-btn {
 	background-color: #ff0000;
 }
 
-#btn2 {
+#reset-btn {
 	background-color: #008cba;
+}
+
+ul#flags {
+	padding: 0;
+	margin: 0;
+}
+
+ul#flags li {
+	font-weight: bold;
+	list-style: none;
 }
 
 @media (max-width: 1140px) {

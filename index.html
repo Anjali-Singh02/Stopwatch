@@ -19,9 +19,17 @@
 			<div class="timer-container">
 				<h1 id="time">00 : 00 : 00</h1>
 			</div>
-			<button onclick="start()" id="btn">Start</button>
-			<button onclick="stop()" id="btn1">Stop</button>
-			<button onclick="reset()" id="btn2">Reset</button>
+			<button onclick="start()" id="start-btn">Start</button>
+			<button onclick="setFlag()" id="flag-btn">flag</button>
+			<button onclick="resetFlags()" id="resetFlag-btn">
+				reset flag
+			</button>
+			<button onclick="stop()" id="stop-btn">Stop</button>
+			<button onclick="reset()" id="reset-btn">Reset</button>
+			<div>
+				<h1>flags</h1>
+				<ul id="flags"></ul>
+			</div>
 		</div>
 
 		<script src="index.js"></script>
