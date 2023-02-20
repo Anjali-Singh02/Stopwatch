@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+		<script
+			src="https://kit.fontawesome.com/75f24fc3bb.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/75f24fc3bb.js" crossorigin="anonymous"></script>
-</head>
+	<body>
+		<div class="container">
+			<h1>Stopwatch</h1>
+			<h1><i class="fa-sharp fa-solid fa-stopwatch fa-xl"></i></h1>
+			<div class="timer-container">
+				<h1 id="time">00 : 00 : 00</h1>
+			</div>
+			<button onclick="start()" id="start-btn">Start</button>
+			<button onclick="setFlag()" id="flag-btn">flag</button>
+			<button onclick="resetFlags()" id="resetFlag-btn">
+				reset flag
+			</button>
+			<button onclick="stop()" id="stop-btn">Stop</button>
+			<button onclick="reset()" id="reset-btn">Reset</button>
+			<div >
+				<h1  >flags</h1>
+				<ul id="flags" class="flags-container"></ul>
+			</div>
+		</div>
 
-<body>
-   
-    <div class="container">
-        <h1>Stopwatch </h1>
-        <h1><i class="fa-sharp fa-solid fa-stopwatch fa-xl"></i></h1>
-        <div class="timer-container">
-            <div id="hr">00</div>
-            <span>:</span>
-            <div id="min">00</div>
-            <span>:</span>
-            <div id="sec">00</div>
-        </div>
-        <button onclick="start()" id="btn">Start</button>
-        <button onclick="stop()" id="btn1">Stop</button>
-        <button onclick="reset()" id="btn2">Reset</button>
-    </div>
-    
-
-    <script src="index.js"></script>
-</body>
-
+		<script src="index.js"></script>
+	</body>
 </html>
